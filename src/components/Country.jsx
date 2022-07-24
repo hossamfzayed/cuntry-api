@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Country(props) {
-  const region = ["Any", "Africa", "Asia", "America", "Europe", "Oceania"];
+  const region = ["Any", "Africa", "Asia", "Americas", "Europe", "Oceania"];
   const [isClicked, setIsClicked] = useState(false);
   return (
     <div className="country">
